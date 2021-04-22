@@ -3,9 +3,7 @@
 
 <head>
     <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="js/slick/slick.css">
-    <link rel="stylesheet" href="js/slick/slick-theme.css">
-
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,62 +11,65 @@
 </head>
 
 <body>
-
+    
     <div class="header">
         <div class="container">
-
-            <div class="header-text">
-                <a href="">Контрольні з веб-дизайну</a>
-                <a href="">Список робіт</a>
-            </div>
-            <div class="logo">
-                <img src="images/logo.png" alt="">
-            </div>
+     
+        <div class="header-text">
+            <a href="">Контрольні з веб-дизайну</a>
+            <a href="">Список робіт</a>
+        </div>
+        <div class="logo">
+            <a href="https://www.pdaa.edu.ua/"><img src="images/logo-pdau.png" alt=""></a>
         </div>
     </div>
-
-    <div class="slider">
-        <div class="slide">
-            <div slide-img><img src="images/169.jpg"></div>
-            <div class="slide-name">Даценко Дмитро</div>
-            <div class="slide-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente eius explicabo itaque, nostrum totam omnis expedita repellat cupiditate ipsam iste.</div>
-        </div>
-        <div class="slide">
-            <div slide-img><img src="images/169.jpg"></div>
-            <div class="slide-name">Даценко Дмитро</div>
-            <div class="slide-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente eius explicabo itaque, nostrum totam omnis expedita repellat cupiditate ipsam iste.</div>
-        </div>
-        <div class="slide slick-slide slick-current slick-active slick-center">
-            <div slide-img><img src="images/logo.png"></div>
-            <div class="slide-name">Даценко Дмитро</div>
-            <div class="slide-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente eius explicabo itaque, nostrum totam omnis expedita repellat cupiditate ipsam iste.</div>
-        </div>
-        <div class="slide">
-            <div slide-img><img src="images/169.jpg"></div>
-            <div class="slide-name">Даценко Дмитро</div>
-            <div class="slide-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente eius explicabo itaque, nostrum totam omnis expedita repellat cupiditate ipsam iste.</div>
-        </div>
-        <div class="slide">
-            <div slide-img><img src="images/169.jpg"></div>
-            <div class="slide-name">Даценко Дмитро</div>
-            <div class="slide-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente eius explicabo itaque, nostrum totam omnis expedita repellat cupiditate ipsam iste.</div>
-        </div>
     </div>
-
+    <div class="content">
+       <div class="carousel" data-flickity>
+           <div class="carousel-cell">
+               <div class="carousel-image"> <a href="#"><img src="images/169.jpg" alt=""></a></div>
+               <div class="carousel-text">
+                  <p>Виконав: </p> <br>
+                   <p>ГРИЧЬКО АНТОН</p> 
+                   <p>ТЕМА: Розробка системи автопілоту тесли</p>
+               </div>
+        </div>
+        <div class="carousel-cell">
+            <div class="carousel-image"> <a href="#"><img src="images/169.jpg" alt=""></a></div>
+            <div class="carousel-text">
+               <p>Виконав: </p> <br>
+                <p>ГРИЧЬКО АНТОН</p> 
+                <p>ТЕМА: Розробка системи автопілоту тесли</p>
+            </div>
+     </div><div class="carousel-cell">
+        <div class="carousel-image"> <a href="#"><img src="images/169.jpg" alt=""></a></div>
+        <div class="carousel-text">
+           <p>Виконав: </p> <br>
+            <p>ГРИЧЬКО АНТОН</p> 
+            <p>ТЕМА: Розробка системи автопілоту тесли</p>
+        </div>
+ </div><div class="carousel-cell">
+    <div class="carousel-image"> <a href="#"><img src="images/169.jpg" alt=""></a></div>
+    <div class="carousel-text">
+       <p>Виконав: </p> <br>
+        <p>ГРИЧЬКО АНТОН</p> 
+        <p>ТЕМА: Розробка системи автопілоту тесли</p>
+    </div>
+</div>
+       </div>
+    </div>
     <div class="footer">
-        <div class="container">
-            <a>
-                <script language="javascript" type="text/javascript">
-                    var d = new Date();
-                    document.write("© " + d.getFullYear());
-                </script>
-
-            </a>
-        </div>
+        <a>
+            <script language="javascript" type="text/javascript">
+                var d = new Date();
+                document.write("© " + d.getFullYear());
+            </script>
+        </a>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="js/slick/slick.min.js"></script>
-    <script src="js/script.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
 </body>
 
 </html>

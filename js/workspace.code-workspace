@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\..\\slick-1.8.1\\slick-1.8.1\\slick"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "agrarka-project-131ce35eef64d1840440d60353402771bc83c6e5"
+	}
+}
